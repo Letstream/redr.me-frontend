@@ -1,0 +1,62 @@
+:root {
+  --color-theme: #96281b;
+}
+
+body {
+  background-color: #fafafa;
+  color: black;
+  text-align: center;
+}
+
+/** Bootstrap Overrides **/
+
+.text-primary {
+  color: var(--color-theme) !important;
+}
+.btn-primary {
+  background-color: var(--color-theme) !important;
+}
+
+.input-group-append {
+  margin-left: -4px;
+}
+
+.form-control {
+  transition: border-color 0.5s;
+  border-color: var(--color-theme);
+}
+.form-control:focus, .form-control:hover {
+  border-color: var(--color-theme) !important;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(150, 40, 27, 0.25) !important; 
+}
+
+a {
+  text-decoration: none;
+}
+
+/** Common **/
+.btn-icon {
+  width: 20px;
+}
+
+.btn-icon-lg {
+  width: 30px;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.font-bold {
+  font-weight: 700 !important;
+}
+
+/** Logo Text **/
+
+.logo {
+  font-family: 'Poppins', sans-serif;
+  font-size: 54px;
+  font-weight: 700;
+  color: #000;
+}
