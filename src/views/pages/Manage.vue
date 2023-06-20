@@ -83,8 +83,6 @@ export default {
             }).then(
                 (res) => {
                     this.loading = false
-                    res.public_url = `${window.location.protocol}//${window.location.host}/${res.code}`
-
                     this.link = res
                     this.update_data.target_url = this.link.target_url
                 },

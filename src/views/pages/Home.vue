@@ -113,7 +113,7 @@ export default {
             }).then(
                 (res) => {
                     this.submit_disabled = false
-                    this.link.public_url = `${window.location.protocol}//${window.location.host}/${res.code}`
+                    this.link.public_url = res.public_url
                     this.link.token = res.token
                     this.reset_state()
                 },
