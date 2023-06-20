@@ -12,7 +12,7 @@
     </b-row>
     <b-row>
         <b-col cols="12">
-            {{ urls }} URLs Shortened | {{ hits }} total redirects | v1.0.0
+            {{ urls }} URLs Shortened | {{ hits }} total redirects | v1.0.1
         </b-col>
     </b-row>
 </template>
